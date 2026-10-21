@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.reversteam.nbtflattener.mixin",
+  "refmap": "nbtflattener.refmap.json",
+  "mixins": [
+    "NbtIoMixin",
+    "CompoundTagTypeMixin",
+    "ListTagTypeMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
